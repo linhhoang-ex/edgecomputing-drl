@@ -1,0 +1,24 @@
+num of slots: 15000
+slot duration (s): 0.01
+num of users: 8
+bandwidth (MHz): 0.2
+limit channel of UAV: 2
+limit channel of mBS: 2
+Arrival rate (Mbps): 3.0
+task model: poisson
+fcpu_max of user (GHz): 1.5
+fcpu_max of one core of UAV (GHz): 1.5
+Vlya (dB): 90.0
+psi_uav: 0.041666666666666664
+psi_user: [1. 1. 1. 1. 1. 1. 1. 1.]
+qthres for user (kb): [40000. 40000. 40000. 40000. 40000. 40000. 40000. 40000.]
+qthres for uav (kb): [5000. 5000. 5000. 5000. 5000. 5000. 5000. 5000.]
+learning rate: 0.001
+num of actions: 78
+training interval: 20
+memory size: 1024
+batch size: 256
+std_var for generating actions: 0.25
+server selection mode: learning
+dual connectivity: True
+runtime (sec): 1894.4120523929596
